@@ -97,7 +97,7 @@ nav i{
 }
 
 #leaf{
-  top: 10%;
+  top: 9%;
   left: 0%;
   transform: rotate(60deg);
   position: absolute;
@@ -107,7 +107,7 @@ nav i{
 }
 
 #leaf2{
-  top: 70%;
+  top: 69%;
   left: 80%;
   transform: rotate(-90deg);
   position: absolute;
@@ -147,7 +147,7 @@ nav i{
 }
 
 .rght-two h1{
-  color: #fff;
+  color: #fff; 
   font-size: 5vw;
 }
 
@@ -195,7 +195,7 @@ nav i{
   padding: 1vw 2vw;
 }
 
-#cocacola{
+/* #cocacola{
   top: -15%;
   position: absolute;
   width: 60%;
@@ -222,4 +222,4 @@ nav i{
   width: 25vw;
   transform: translate(-50%, 0%);
   transition: all cubic-bezier(0.19, 1, 0.22, 1)0.5s;
-}
+} */
