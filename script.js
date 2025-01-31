@@ -1,7 +1,3 @@
-// const scroll = new LocomotiveScroll({
-//     el: document.querySelector('#trash'),
-//     smooth: true
-// });
 
 var tl = gsap.timeline({scrollTrigger:{
     trigger: ".two",
@@ -18,7 +14,8 @@ left: "10%"
 
 tl.to("#orange-cut",{
 top: "155%",
-left: "22%"
+left: "22%",
+scale:1
 }, 'orange')
 
 tl.to("#orange",{
@@ -72,13 +69,13 @@ tl2.from("#pepsi",{
 }, 'ca')
 
 tl2.to("#orange-cut",{
-    width:"18%",
-    left: "42%",
-    top: "206%"
+    width:"19%",
+    left: "41%",
+    top: "206%",
 }, 'ca')
 
 tl2.to("#fanta",{
-    width:"14%",
-    top: "217%",
-    left: "44%",
+    width:"13.5%",
+    top: "214%",
+    left: "43.5%",
 }, 'ca')

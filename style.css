@@ -21,11 +21,11 @@ body::-webkit-scrollbar {
   display: none;
 }
 
-/* #main{
+#main{
   width: 100%;
   height: 100vh;
   background-color: orangered;
-} */
+}
 
 nav{
   position: fixed;
@@ -73,7 +73,7 @@ nav i{
   position: absolute;
   width: 20%;
   z-index: 2;
-  transition: all cubic-bezier(0.19, 1, 0.22, 1)0.5s;
+  /* transition: all cubic-bezier(0.19, 1, 0.22, 1)0.5s; */
 }
 
 #orange-cut{
@@ -82,7 +82,7 @@ nav i{
   left: 34%;
   width: 15%;
   z-index: 1;
-  transition: all cubic-bezier(0.19, 1, 0.22, 1)0.5s;
+  /* transition: all cubic-bezier(0.19, 1, 0.22, 1)0.5s; */
 
 }
 
@@ -92,7 +92,7 @@ nav i{
   z-index: 3;
   top: 60%;
   right: 30%;
-  transition: all cubic-bezier(0.19, 1, 0.22, 1)0.5s;
+  /* transition: all cubic-bezier(0.19, 1, 0.22, 1)0.5s; */
 
 }
 
@@ -102,7 +102,7 @@ nav i{
   transform: rotate(60deg);
   position: absolute;
   width: 18%;
-  transition: all cubic-bezier(0.19, 1, 0.22, 1)0.5s;
+  /* transition: all cubic-bezier(0.19, 1, 0.22, 1)0.5s; */
 
 }
 
@@ -112,7 +112,7 @@ nav i{
   transform: rotate(-90deg);
   position: absolute;
   width: 12%;
-  transition: all cubic-bezier(0.19, 1, 0.22, 1)0.5s;
+  /* transition: all cubic-bezier(0.19, 1, 0.22, 1)0.5s; */
 
 }
 
@@ -201,7 +201,7 @@ nav i{
   width: 105%;
   left: 50%;
   transform: translate(-50%, 0%);
-  transition: all cubic-bezier(0.19, 1, 0.22, 1)0.5s;
+  /* transition: all cubic-bezier(0.19, 1, 0.22, 1)0.5s; */
 
 }
 
@@ -211,7 +211,7 @@ nav i{
   width: 75%;
   left: 50%;
   transform: translate(-50%, 0%);
-  transition: all cubic-bezier(0.19, 1, 0.22, 1)0.5s;
+  /* transition: all cubic-bezier(0.19, 1, 0.22, 1)0.5s; */
 
 }
 
@@ -221,5 +221,5 @@ nav i{
   left: 50%;
   width: 25vw;
   transform: translate(-50%, 0%);
-  transition: all cubic-bezier(0.19, 1, 0.22, 1)0.5s;
+  /* transition: all cubic-bezier(0.19, 1, 0.22, 1)0.5s; */
 }
