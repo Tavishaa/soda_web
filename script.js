@@ -1,3 +1,43 @@
+// document.addEventListener("DOMContentLoaded", function () {
+//     // Initialize Locomotive Scroll
+//     const locoScroll = new LocomotiveScroll({
+//         el: document.querySelector("[data-scroll-container]"),
+//         smooth: true,
+//         lerp: 0.07, // Adjust for a smoother scroll
+//     });
+
+//     // Update ScrollTrigger when Locomotive Scroll updates
+//     locoScroll.on("scroll", ScrollTrigger.update);
+
+//     // Connect Locomotive Scroll with ScrollTrigger
+//     ScrollTrigger.scrollerProxy("[data-scroll-container]", {
+//         scrollTop(value) {
+//             return arguments.length
+//                 ? locoScroll.scrollTo(value, { duration: 0, disableLerp: true })
+//                 : locoScroll.scroll.instance.scroll.y;
+//         },
+//         getBoundingClientRect() {
+//             return {
+//                 top: 0,
+//                 left: 0,
+//                 width: window.innerWidth,
+//                 height: window.innerHeight,
+//             };
+//         },
+//         pinType: document.querySelector("[data-scroll-container]").style.transform
+//             ? "transform"
+//             : "fixed",
+//     });
+
+//     // Refresh ScrollTrigger and Locomotive Scroll
+//     ScrollTrigger.addEventListener("refresh", () => locoScroll.update());
+//     ScrollTrigger.refresh();
+// });
+
+
+// // Refresh ScrollTrigger after Locomotive Scroll is fully loaded
+// ScrollTrigger.addEventListener("refresh", () => locoScroll.update());
+// ScrollTrigger.refresh();
 
 var tl = gsap.timeline({scrollTrigger:{
     trigger: ".two",
@@ -5,6 +45,7 @@ var tl = gsap.timeline({scrollTrigger:{
     end:"70% 70%",
     scrub: true,
     //markers: true, 
+    // scroller: "[data-scroll-container]",
 }})
 
 tl.to("#fanta",{
@@ -36,13 +77,13 @@ tl.to("#leaf2",{
     left: "0%"
 }, 'orange')
 
-
 var tl2 = gsap.timeline({scrollTrigger:{
     trigger: ".three",
     start: "0% 95%",
     end: "70% 80%",
     scrub: true,
-    markers: true,
+    // markers: true,
+    // scroller: "[data-scroll-container]",
 }})
 
 tl2.from(".lemon1",{
