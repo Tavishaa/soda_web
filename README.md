@@ -1,4 +1,4 @@
-# 🌐 Animated Portfolio Website with GSAP & ScrollTrigger
+# 🌐 Animated Soda
 
 A visually engaging single-page website designed to showcase frontend skills using **GSAP** and **ScrollTrigger**.  
 The goal was to create a smooth, interactive experience where animations guide users through the content, enhancing storytelling without overwhelming the design.
@@ -6,7 +6,7 @@ The goal was to create a smooth, interactive experience where animations guide u
 ---
 ## 🚀 Live Demo
 
-🔗 [Check it out here](https://lnkd.in/geBp9bzP)
+🔗 [Check it out here](https://tavishaa.github.io/soda_web/)
 
 ---
 
